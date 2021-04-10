@@ -18,7 +18,7 @@
           type="textarea"
           v-on:keyup.enter="addUser"
           v-model="message"
-          placeholder="Add New User"
+          placeholder="Add New Task"
         />
       </li>
     </ul>
@@ -130,5 +130,9 @@ div {
 }
 .ad {
   margin: 20px;
+  font-size: 2vw;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    rgb(3, 1, 3);
 }
 </style>
